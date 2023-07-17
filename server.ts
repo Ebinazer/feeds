@@ -36,7 +36,7 @@ cron.schedule('*/5 * * * *', async () => {
     await createLogFile()
 });
 
-cron.schedule('*/1 * * * *', async () => {
+cron.schedule('*/30 * * * *', async () => {
     await deleteOldLogs()
 });
 
